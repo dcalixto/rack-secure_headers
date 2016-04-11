@@ -6,7 +6,7 @@ module Rack
       hsts: { max_age: "31536000", include_subdomains: true },
       x_content_type_options: "nosniff",
       x_frame_options: "SAMEORIGIN",
-      x_permitted_cross_domain_policies: "none",
+      x_permitted_cross_domain_policies: "master-only",
       x_xss_protection: "1; mode=block"
     }
 
